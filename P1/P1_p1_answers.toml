@@ -16,8 +16,8 @@
 format = "16.100-P1-v1"
 
 [team]
-group = 0                                      # your group number
-members = ["First Last", "First Last", "First Last"]
+group = 1                                      # your group number
+members = ["Adeline Vining", "Reva Mathankar", "Ariella Blackman", "Nicole Ding"]
 
 # ---------------------------------------------------------------------------
 # Task 2 -- your table, one row per line (at least three wing areas, three
@@ -25,8 +25,33 @@ members = ["First Last", "First Last", "First Last"]
 # ---------------------------------------------------------------------------
 [task2]
 rows = [
-  {area_m2 = nan, aspect_ratio = nan, battery_mass_kg = nan, span_m = nan, chord_m = nan, wing_mass_kg = nan, fuselage_mass_kg = nan, total_mass_kg = nan, wing_loading_N_per_m2 = nan, V_stall_m_per_s = nan},
-  {area_m2 = nan, aspect_ratio = nan, battery_mass_kg = nan, span_m = nan, chord_m = nan, wing_mass_kg = nan, fuselage_mass_kg = nan, total_mass_kg = nan, wing_loading_N_per_m2 = nan, V_stall_m_per_s = nan},
+  {'area_m2' = 0.3, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.07, 'span_m' = 1.0954451150103321, 'chord_m' = 0.2738612787525831, 'wing_mass_kg' = 0.16397498837566665, 'fuselage_mass_kg' = 0.5993788793195908, 'total_mass_kg' = 1.3333538676952574, 'weight_N' = 13.080201442090477, 'wing_loading_N_per_m2' = 43.600671473634925, 'stall_speed_m_per_s' = 7.130656639412337},
+  {'area_m2' = 0.3, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.0954451150103321, 'chord_m' = 0.2738612787525831, 'wing_mass_kg' = 0.16397498837566665, 'fuselage_mass_kg' = 0.5993788793195908, 'total_mass_kg' = 1.4983538676952575, 'weight_N' = 14.698851442090476, 'wing_loading_N_per_m2' = 48.996171473634924, 'stall_speed_m_per_s' = 7.5589941387117525},
+  {'area_m2' = 0.3, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.4, 'span_m' = 1.0954451150103321, 'chord_m' = 0.2738612787525831, 'wing_mass_kg' = 0.16397498837566665, 'fuselage_mass_kg' = 0.5993788793195908, 'total_mass_kg' = 1.6633538676952573, 'weight_N' = 16.317501442090474, 'wing_loading_N_per_m2' = 54.391671473634915, 'stall_speed_m_per_s' = 7.9643280111357795},
+  {'area_m2' = 0.3, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.07, 'span_m' = 1.449137674618944, 'chord_m' = 0.20701966780270625, 'wing_mass_kg' = 0.12395344013620598, 'fuselage_mass_kg' = 0.6476096829025833, 'total_mass_kg' = 1.3415631230387894, 'weight_N' = 13.160734237010525, 'wing_loading_N_per_m2' = 43.86911412336842, 'stall_speed_m_per_s' = 7.1525741353687255},
+  {'area_m2' = 0.3, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.449137674618944, 'chord_m' = 0.20701966780270625, 'wing_mass_kg' = 0.12395344013620598, 'fuselage_mass_kg' = 0.6476096829025833, 'total_mass_kg' = 1.5065631230387895, 'weight_N' = 14.779384237010525, 'wing_loading_N_per_m2' = 49.26461412336842, 'stall_speed_m_per_s' = 7.579673148746525},
+  {'area_m2' = 0.3, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.4, 'span_m' = 1.449137674618944, 'chord_m' = 0.20701966780270625, 'wing_mass_kg' = 0.12395344013620598, 'fuselage_mass_kg' = 0.6476096829025833, 'total_mass_kg' = 1.6715631230387893, 'weight_N' = 16.398034237010524, 'wing_loading_N_per_m2' = 54.660114123368416, 'stall_speed_m_per_s' = 7.983957246986762},
+  {'area_m2' = 0.3, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.07, 'span_m' = 1.7320508075688772, 'chord_m' = 0.17320508075688773, 'wing_mass_kg' = 0.10370688851334804, 'fuselage_mass_kg' = 0.6861887464866651, 'total_mass_kg' = 1.359895635000013, 'weight_N' = 13.34057617935013, 'wing_loading_N_per_m2' = 44.468587264500435, 'stall_speed_m_per_s' = 7.201278414565163},
+  {'area_m2' = 0.3, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.7320508075688772, 'chord_m' = 0.17320508075688773, 'wing_mass_kg' = 0.10370688851334804, 'fuselage_mass_kg' = 0.6861887464866651, 'total_mass_kg' = 1.5248956350000131, 'weight_N' = 14.959226179350129, 'wing_loading_N_per_m2' = 49.864087264500434, 'stall_speed_m_per_s' = 7.625650076155181},
+  {'area_m2' = 0.3, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.4, 'span_m' = 1.7320508075688772, 'chord_m' = 0.17320508075688773, 'wing_mass_kg' = 0.10370688851334804, 'fuselage_mass_kg' = 0.6861887464866651, 'total_mass_kg' = 1.689895635000013, 'weight_N' = 16.577876179350127, 'wing_loading_N_per_m2' = 55.259587264500425, 'stall_speed_m_per_s' = 8.027619034548719},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.07, 'span_m' = 1.3416407864998738, 'chord_m' = 0.3354101966249684, 'wing_mass_kg' = 0.3012412890743896, 'fuselage_mass_kg' = 0.7079510163408919, 'total_mass_kg' = 1.5791923054152817, 'weight_N' = 15.491876516123915, 'wing_loading_N_per_m2' = 34.42639225805315, 'stall_speed_m_per_s' = 6.336197299587819},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.3416407864998738, 'chord_m' = 0.3354101966249684, 'wing_mass_kg' = 0.3012412890743896, 'fuselage_mass_kg' = 0.7079510163408919, 'total_mass_kg' = 1.7441923054152817, 'weight_N' = 17.110526516123915, 'wing_loading_N_per_m2' = 38.02339225805315, 'stall_speed_m_per_s' = 6.658990043985115},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.4, 'span_m' = 1.3416407864998738, 'chord_m' = 0.3354101966249684, 'wing_mass_kg' = 0.3012412890743896, 'fuselage_mass_kg' = 0.7079510163408919, 'total_mass_kg' = 1.9091923054152815, 'weight_N' = 18.729176516123914, 'wing_loading_N_per_m2' = 41.620392258053144, 'stall_speed_m_per_s' = 6.966842943003797},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.07, 'span_m' = 1.7748239349298847, 'chord_m' = 0.253546276418555, 'wing_mass_kg' = 0.22771701014724394, 'fuselage_mass_kg' = 0.7670214456722569, 'total_mass_kg' = 1.5647384558195008, 'weight_N' = 15.350084251589303, 'wing_loading_N_per_m2' = 34.11129833686512, 'stall_speed_m_per_s' = 6.307134036267677},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.7748239349298847, 'chord_m' = 0.253546276418555, 'wing_mass_kg' = 0.22771701014724394, 'fuselage_mass_kg' = 0.7670214456722569, 'total_mass_kg' = 1.7297384558195008, 'weight_N' = 16.968734251589304, 'wing_loading_N_per_m2' = 37.70829833686512, 'stall_speed_m_per_s' = 6.6313416393694515},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.4, 'span_m' = 1.7748239349298847, 'chord_m' = 0.253546276418555, 'wing_mass_kg' = 0.22771701014724394, 'fuselage_mass_kg' = 0.7670214456722569, 'total_mass_kg' = 1.8947384558195006, 'weight_N' = 18.587384251589302, 'wing_loading_N_per_m2' = 41.30529833686512, 'stall_speed_m_per_s' = 6.940421033671087},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.07, 'span_m' = 2.1213203435596424, 'chord_m' = 0.21213203435596426, 'wing_mass_kg' = 0.19052171975205343, 'fuselage_mass_kg' = 0.8142709559399511, 'total_mass_kg' = 1.5747926756920048, 'weight_N' = 15.448716148538567, 'wing_loading_N_per_m2' = 34.330480330085706, 'stall_speed_m_per_s' = 6.327364820716755},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 2.1213203435596424, 'chord_m' = 0.21213203435596426, 'wing_mass_kg' = 0.19052171975205343, 'fuselage_mass_kg' = 0.8142709559399511, 'total_mass_kg' = 1.7397926756920048, 'weight_N' = 17.067366148538568, 'wing_loading_N_per_m2' = 37.92748033008571, 'stall_speed_m_per_s' = 6.650586271978802},
+  {'area_m2' = 0.44999999999999996, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.4, 'span_m' = 2.1213203435596424, 'chord_m' = 0.21213203435596426, 'wing_mass_kg' = 0.19052171975205343, 'fuselage_mass_kg' = 0.8142709559399511, 'total_mass_kg' = 1.9047926756920046, 'weight_N' = 18.686016148538567, 'wing_loading_N_per_m2' = 41.52448033008571, 'stall_speed_m_per_s' = 6.958810957887979},
+  {'area_m2' = 0.6, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.07, 'span_m' = 1.5491933384829668, 'chord_m' = 0.38729833462074165, 'wing_mass_kg' = 0.4637913049016766, 'fuselage_mass_kg' = 0.811253637065859, 'total_mass_kg' = 1.8450449419675357, 'weight_N' = 18.099890880701526, 'wing_loading_N_per_m2' = 30.16648480116921, 'stall_speed_m_per_s' = 5.93123714853408},
+  {'area_m2' = 0.6, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 1.5491933384829668, 'chord_m' = 0.38729833462074165, 'wing_mass_kg' = 0.4637913049016766, 'fuselage_mass_kg' = 0.811253637065859, 'total_mass_kg' = 2.0100449419675357, 'weight_N' = 19.718540880701525, 'wing_loading_N_per_m2' = 32.86423480116921, 'stall_speed_m_per_s' = 6.19077040860767},
+  {'area_m2' = 0.6, 'aspect_ratio' = 4.0, 'battery_mass_kg' = 0.4, 'span_m' = 1.5491933384829668, 'chord_m' = 0.38729833462074165, 'wing_mass_kg' = 0.4637913049016766, 'fuselage_mass_kg' = 0.811253637065859, 'total_mass_kg' = 2.1750449419675357, 'weight_N' = 21.337190880701527, 'wing_loading_N_per_m2' = 35.56198480116922, 'stall_speed_m_per_s' = 6.439852668503688},
+  {'area_m2' = 0.6, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.07, 'span_m' = 2.04939015319192, 'chord_m' = 0.2927700218845599, 'wing_mass_kg' = 0.350593272286848, 'fuselage_mass_kg' = 0.87946229361708, 'total_mass_kg' = 1.800055565903928, 'weight_N' = 17.658545101517532, 'wing_loading_N_per_m2' = 29.43090850252922, 'stall_speed_m_per_s' = 5.858477548529396},
+  {'area_m2' = 0.6, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 2.04939015319192, 'chord_m' = 0.2927700218845599, 'wing_mass_kg' = 0.350593272286848, 'fuselage_mass_kg' = 0.87946229361708, 'total_mass_kg' = 1.965055565903928, 'weight_N' = 19.277195101517535, 'wing_loading_N_per_m2' = 32.12865850252923, 'stall_speed_m_per_s' = 6.121096578764682},
+  {'area_m2' = 0.6, 'aspect_ratio' = 7.0, 'battery_mass_kg' = 0.4, 'span_m' = 2.04939015319192, 'chord_m' = 0.2927700218845599, 'wing_mass_kg' = 0.350593272286848, 'fuselage_mass_kg' = 0.87946229361708, 'total_mass_kg' = 2.1300555659039278, 'weight_N' = 20.895845101517533, 'wing_loading_N_per_m2' = 34.826408502529226, 'stall_speed_m_per_s' = 6.372902593520976},
+  {'area_m2' = 0.6, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.07, 'span_m' = 2.449489742783178, 'chord_m' = 0.24494897427831783, 'wing_mass_kg' = 0.2933273764941827, 'fuselage_mass_kg' = 0.9340213285613423, 'total_mass_kg' = 1.7973487050555252, 'weight_N' = 17.631990796594703, 'wing_loading_N_per_m2' = 29.38665132765784, 'stall_speed_m_per_s' = 5.854071004086283},
+  {'area_m2' = 0.6, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.23500000000000001, 'span_m' = 2.449489742783178, 'chord_m' = 0.24494897427831783, 'wing_mass_kg' = 0.2933273764941827, 'fuselage_mass_kg' = 0.9340213285613423, 'total_mass_kg' = 1.9623487050555253, 'weight_N' = 19.250640796594706, 'wing_loading_N_per_m2' = 32.084401327657844, 'stall_speed_m_per_s' = 6.116879225620322},
+  {'area_m2' = 0.6, 'aspect_ratio' = 10, 'battery_mass_kg' = 0.4, 'span_m' = 2.449489742783178, 'chord_m' = 0.24494897427831783, 'wing_mass_kg' = 0.2933273764941827, 'fuselage_mass_kg' = 0.9340213285613423, 'total_mass_kg' = 2.127348705055525, 'weight_N' = 20.8692907965947, 'wing_loading_N_per_m2' = 34.782151327657836, 'stall_speed_m_per_s' = 6.368851984523362}
 ]
 
 # Task 2 -- the wing area and aspect ratio that give the lowest stall speed
@@ -42,27 +67,28 @@ V_stall_m_per_s = nan
 # ---------------------------------------------------------------------------
 [design]
 # your choices
-area_m2 = nan
-aspect_ratio = nan
-battery_mass_kg = nan
-cruise_speed_m_per_s = nan
+area_m2 = 0.633
+aspect_ratio = 4.0
+battery_mass_kg = 0.180
+cruise_speed_m_per_s = 8.352
+
 # what follows from them
-span_m = nan
-chord_m = nan
-wing_mass_kg = nan
-fuselage_mass_kg = nan            # without the battery and the payload
-total_mass_kg = nan
-wing_loading_N_per_m2 = nan
-V_stall_m_per_s = nan
-CL_cruise = nan
-LD_cruise = nan                   # L/D at YOUR cruise C_L, not the maximum L/D
-battery_power_W = nan             # power drawn from the battery at cruise
-range_km = nan                    # at your cruise speed; must be >= 22 km (20 km + 10% reserve)
-flight_time_min = nan             # 20 km at your cruise speed
-Reynolds_cruise = nan             # V c / nu
+span_m = 1.592
+chord_m = 0.398
+wing_mass_kg = 0.503
+fuselage_mass_kg = 0.834            # without the battery and the payload
+total_mass_kg = 2.017
+wing_loading_N_per_m2 = 31.24
+V_stall_m_per_s = 6.036
+CL_cruise = 0.731
+LD_cruise = 8.292                   # L/D at YOUR cruise C_L, not the maximum L/D
+battery_power_W = 19.93             # power drawn from the battery at cruise
+range_km = 22000                    # at your cruise speed; must be >= 22 km (20 km + 10% reserve)
+flight_time_min = 39.9             # 20 km at your cruise speed
+Reynolds_cruise = 2.28e+05          # V c / nu
 
 # ---------------------------------------------------------------------------
 # Task 5
 # ---------------------------------------------------------------------------
 [task5]
-CLmax_required = nan              # the C_Lmax your wing must reach, including your margin
+CLmax_required = 1.4              # the C_Lmax your wing must reach, including your margin
