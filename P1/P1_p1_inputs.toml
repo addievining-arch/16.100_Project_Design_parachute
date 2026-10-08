@@ -46,7 +46,7 @@ S0_m2 = 0.16
 # YOUR DESIGN -- replace each nan with your choice (Task 3).
 # ---------------------------------------------------------------------------
 [design]
-S_m2 = nan                   # wing area
-AR = nan                     # aspect ratio
-m_b_kg = nan                 # battery mass
-V_cruise = nan               # m/s
+S_m2 = 0.633                 # wing area
+AR = 4.0                    # aspect ratio
+m_b_kg = 0.180                 # battery mass
+V_cruise = 8.35               # m/s
