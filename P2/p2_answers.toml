@@ -15,9 +15,9 @@
 
 format = "16.100-P2-v1"
 
-Team 1
+[team]
 group = 1                                      # your group number
-members = Adeline Vining, Ariella Blackman, Reva Mathankar, Nicole Ding
+members = ["Adeline Vining", "Ariella Blackman", "Reva Mathankar", "Nicole Ding"]
 
 # ---------------------------------------------------------------------------
 # Task 3 -- your soft-stall wing: the seven design variables
