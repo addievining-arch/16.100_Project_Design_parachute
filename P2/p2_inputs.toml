@@ -16,10 +16,10 @@ nu = 1.46e-5                 # m^2/s, kinematic viscosity
 # ---------------------------------------------------------------------------
 [p1]
 W_N = 19.78                   # weight, N
-S_m2 = 0.383                  # wing area, m^2 
+S_m2 = 0.633                 # wing area, m^2
 b_m = 1.59                   # span, m (at most 1.6 m)
 V_cruise = 8.35              # cruise speed, m/s
-CLmax_req = 1.4             # the wing C_Lmax you need (P1 Task 5)
+CLmax_req = 1.04             # the wing C_Lmax you need (P1 Task 5)
 
 [stall]                      # handout Eq. (2): c_lmax = c_l0 + dcl_stall
 dcl_stall = 0.99             # placeholder, tested in Project 3
@@ -56,9 +56,9 @@ theta_max_deg = 4.0
 # ---------------------------------------------------------------------------
 [design]
 cb_cr = 1.0                  # chord at the break / root chord
-ct_cr = 1.0                  # chord at the tip / root chord
-theta_b_deg = 0.0            # twist at the break, deg, nose up positive (root = 0)
-theta_t_deg = 0.0            # twist at the tip, deg
-m_r_pct = 4.0                # maximum camber, %: at the root
-m_b_pct = 4.0                #                    at the break
-m_t_pct = 4.0                #                    at the tip
+ct_cr = 0.7                  # chord at the tip / root chord
+theta_b_deg = -4.45            # twist at the break, deg, nose up positive (root = 0)
+theta_t_deg = -4.45            # twist at the tip, deg
+m_r_pct = 4.2                # maximum camber, %: at the root
+m_b_pct = 4.6                #                    at the break
+m_t_pct = 4.6                #                    at the tip

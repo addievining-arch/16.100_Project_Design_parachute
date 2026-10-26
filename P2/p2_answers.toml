@@ -15,30 +15,30 @@
 
 format = "16.100-P2-v1"
 
-[team]
-group = 0                                      # your group number
-members = ["First Last", "First Last", "First Last"]
+Team 1
+group = 1                                      # your group number
+members = Adeline Vining, Ariella Blackman, Reva Mathankar, Nicole Ding
 
 # ---------------------------------------------------------------------------
 # Task 3 -- your soft-stall wing: the seven design variables
 # ---------------------------------------------------------------------------
 [design]
-cb_cr = nan                       # chord at the break / root chord (at least 0.5)
-ct_cr = nan                       # chord at the tip / root chord (at least 0.5)
-theta_b_deg = nan                 # twist at the break, deg, relative to the root chord, nose up positive
-theta_t_deg = nan                 # twist at the tip, deg
-m_r_pct = nan                     # maximum camber, % of the chord (0 to 6): at the root
-m_b_pct = nan                     #   at the break
-m_t_pct = nan                     #   at the tip
+cb_cr = 1.00                       # chord at the break / root chord (at least 0.5)
+ct_cr = 0.70                       # chord at the tip / root chord (at least 0.5)
+theta_b_deg = -4.45                 # twist at the break, deg, relative to the root chord, nose up positive
+theta_t_deg = -4.45                 # twist at the tip, deg
+m_r_pct = 4.2                     # maximum camber, % of the chord (0 to 6): at the root
+m_b_pct = 4.6                     #   at the break
+m_t_pct = 4.6                     #   at the tip
 
 # ---------------------------------------------------------------------------
 # Results for that wing
 # ---------------------------------------------------------------------------
 [results]
-CLmax = nan                       # wing C_Lmax: the lowest C_L* for eta <= 0.9
-eta_first_stall = nan             # eta = 2y/b of the station that stalls first
-e_cruise = nan                    # span efficiency at your cruise C_L
-CDp_cruise = nan                  # wing profile drag coefficient at cruise
-CDi_cruise = nan                  # induced drag coefficient at cruise
-Cm_ac = nan                       # wing pitching moment coefficient about its aerodynamic center
-M_root_Nm = nan                   # root bending moment, N m, at C_Lmax in level flight (L = W)
+CLmax = 1.232                       # wing C_Lmax: the lowest C_L* for eta <= 0.9
+eta_first_stall = 0.00125             # eta = 2y/b of the station that stalls first
+e_cruise = 0.99128                    # span efficiency at your cruise C_L
+CDp_cruise = 0.012128                  # wing profile drag coefficient at cruise
+CDi_cruise = 0.04308                  # induced drag coefficient at cruise
+Cm_ac = -0.1191                       # wing pitching moment coefficient about its aerodynamic center
+M_root_Nm = 3.3708                   # root bending moment, N m, at C_Lmax in level flight (L = W)
